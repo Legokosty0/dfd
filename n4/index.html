@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Layout</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css ">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f5f7;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    header div {
+      max-width: 50%;
+    }
+
+    header h1 {
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    header h1 strong {
+      color: #4f46e5;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #666;
+      margin-top: 10px;
+    }
+
+    header button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      background-color: #4f46e5;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    header button:nth-child(2) {
+      background-color: transparent;
+      color: #4f46e5;
+      border: 1px solid #4f46e5;
+    }
+
+    header img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    main {
+      padding: 40px 20px;
+      background-color: #f4f5f7;
+    }
+
+    main h2 {
+      font-size: 16px;
+      font-weight: bold;
+      color: #4f46e5;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    main h3 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      font-size: 16px;
+      color: #666;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    main section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    main article {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    main article h4 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    main article p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    footer {
+      background-color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer h2 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    footer h3 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #4f46e5;
+      margin-bottom: 20px;
+    }
+
+    footer button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      background-color: #4f46e5;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    footer button:nth-child(2) {
+      background-color: transparent;
+      color: #4f46e5;
+      border: 1px solid #4f46e5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Data to enrich your<br><strong>online business</strong></h1>
+      <p>A Tailwind Figma Template exported with Figsix on Vercel in one-click!</p>
+      <button>Get started</button>
+      <button>Live demo</button>
+    </div>
+    <img src="img/photo_2025-04-12_12-16-18.jpg" alt="Business Teamwork">
+  </header>
+
+  <main>
+    <section>
+      <h2>TRANSACTIONS</h2>
+      <h3>A better way to send money</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+    </section>
+
+    <section>
+      <article>
+        <div class="icon-container">
+          <i class="fas fa-comment-dots"></i>
+        </div>
+        <h4>Mobile notifications</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+      </article>
+      <article>
+        <div class="icon-container">
+          <i class="fas fa-globe"></i>
+        </div>
+        <h4>Transfers are instant</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+      </article>
+      <article>
+        <div class="icon-container">
+          <i class="fas fa-comment-dots"></i>
+        </div>
+        <h4>No hidden fees</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+      </article>
+      <article>
+        <div class="icon-container">
+          <i class="fas fa-globe"></i>
+        </div>
+        <h4>Competitive exchange rates</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Ready to dive in?</h2>
+    <h3>Start your free trial today.</h3>
+    <button>Get started</button>
+    <button>Learn more</button>
+  </footer>
+</body>
+</html>
